@@ -1,28 +1,40 @@
-name: '@sammyortiz'
 favicon: null
-layout_spectrum: 0.7127941369544715
-typography_spectrum: 0.9595017412211746
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: '@sammyortiz'
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.6593592
+  brandStrength: 0.9214090113528073
+  lightness: 0.5851602
   brandColors:
     - '#9D2D3C'
     - '#DDE4DD'
     - '#BCAB47'
     - '#6B574B'
     - '#160600'
-  brandStrength: 0.9214090113528073
-  lightness: 0.04585323762148619
-  saturation: 0.12260401947423816
-  rhythmicContrast: 0.08362554060295224
-purpose: []
+  rhythmicContrast: 0.8001686
+typography_spectrum: 0.2259696
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
